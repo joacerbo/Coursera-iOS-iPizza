@@ -14,6 +14,9 @@
 		9B139A341BF4ABE50098CA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B139A321BF4ABE50098CA66 /* LaunchScreen.storyboard */; };
 		9B139A3F1BF4ABE50098CA66 /* iPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B139A3E1BF4ABE50098CA66 /* iPizzaTests.swift */; };
 		9B139A4A1BF4ABE50098CA66 /* iPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B139A491BF4ABE50098CA66 /* iPizzaUITests.swift */; };
+		9B139A581BF4EC720098CA66 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B139A571BF4EC720098CA66 /* Pizza.swift */; };
+		9B139A5C1BF5EC770098CA66 /* XCPizzaCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B139A5B1BF5EC770098CA66 /* XCPizzaCreator.swift */; };
+		9B139A5E1BF6658C0098CA66 /* XCPizzaBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B139A5D1BF6658C0098CA66 /* XCPizzaBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9B139A451BF4ABE50098CA66 /* iPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B139A491BF4ABE50098CA66 /* iPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPizzaUITests.swift; sourceTree = "<group>"; };
 		9B139A4B1BF4ABE50098CA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B139A571BF4EC720098CA66 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		9B139A5B1BF5EC770098CA66 /* XCPizzaCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCPizzaCreator.swift; sourceTree = "<group>"; };
+		9B139A5D1BF6658C0098CA66 /* XCPizzaBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCPizzaBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		9B139A281BF4ABE50098CA66 /* iPizza */ = {
 			isa = PBXGroup;
 			children = (
+				9B139A5B1BF5EC770098CA66 /* XCPizzaCreator.swift */,
 				9B139A291BF4ABE50098CA66 /* AppDelegate.swift */,
 				9B139A2B1BF4ABE50098CA66 /* ViewController.swift */,
 				9B139A2D1BF4ABE50098CA66 /* Main.storyboard */,
 				9B139A301BF4ABE50098CA66 /* Assets.xcassets */,
 				9B139A321BF4ABE50098CA66 /* LaunchScreen.storyboard */,
 				9B139A351BF4ABE50098CA66 /* Info.plist */,
+				9B139A571BF4EC720098CA66 /* Pizza.swift */,
+				9B139A5D1BF6658C0098CA66 /* XCPizzaBarController.swift */,
 			);
 			path = iPizza;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B139A5C1BF5EC770098CA66 /* XCPizzaCreator.swift in Sources */,
 				9B139A2C1BF4ABE50098CA66 /* ViewController.swift in Sources */,
 				9B139A2A1BF4ABE50098CA66 /* AppDelegate.swift in Sources */,
+				9B139A581BF4EC720098CA66 /* Pizza.swift in Sources */,
+				9B139A5E1BF6658C0098CA66 /* XCPizzaBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
